@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+// Декларативный стиль
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+         {new Date().getFullYear()}  {/* Императивный стиль */}
+        </p>
       </header>
     </div>
   );
